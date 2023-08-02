@@ -14,7 +14,7 @@
     },
     {
         "name": "Ayushma AI",
-        "description": "Ayushma is a digital AI health and nursing `assistant to help Nurses and Doctors in the most remote parts of the world.",
+        "description": "Ayushma is a digital AI health and nursing assistant to help Nurses and Doctors in the most remote parts of the world.",
         "link": "https://ayushma.ohc.network/",
         "api_docs": "https://ayushma-api.ohc.network/api/schema/swagger/",
         "repo": "ayushma_fe",
