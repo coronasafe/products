@@ -1,4 +1,5 @@
-import productsJson from "../products.json";
+import productsJson from "@/public/products.json";
+import { ArrayElement } from "./utils";
 
 const products = productsJson.map((product) => ({
   ...product,
@@ -7,6 +8,6 @@ const products = productsJson.map((product) => ({
   github: `https://github.com/coronasafe/${product.repo}`,
 }));
 
-export type Product = (typeof products)[0];
+export type Product = ArrayElement<typeof products>;
 
 export default products;

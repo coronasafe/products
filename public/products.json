@@ -3,56 +3,82 @@
         "name": "Care",
         "description": "Care is a Digital Public Good enabling TeleICU & Decentralised Administration of Healthcare Capacity across States.",
         "link": "https://care.ohc.network/",
+        "api_docs": "https://careapi.ohc.network/swagger/",
         "repo": "care_fe",
-        "stack": []
+        "dpg_url": "https://app.digitalpublicgoods.net/a/10019",
+        "tags": [
+            "Django Rest Framework",
+            "React",
+            "TailwindCSS"
+        ]
     },
     {
         "name": "Ayushma AI",
-        "description": "Ayushma is a digital AI health and nursing assistant to help Nurses and Doctors in the most remote parts of the world.",
+        "description": "Ayushma is a digital AI health and nursing `assistant to help Nurses and Doctors in the most remote parts of the world.",
         "link": "https://ayushma.ohc.network/",
-        "repo": "ayushma",
-        "stack": []
+        "api_docs": "https://ayushma-api.ohc.network/api/schema/swagger/",
+        "repo": "ayushma_fe",
+        "tags": [
+            "Django Rest Framework",
+            "NextJS",
+            "TailwindCSS"
+        ]
     },
     {
         "name": "Leaderboard",
         "description": "Leaderboard collects data from GitHub and Slack to show off the work of our open source contributors.",
         "link": "https://contributors.ohc.network/",
         "repo": "leaderboard",
-        "stack": []
+        "tags": [
+            "GitHub API",
+            "NextJS",
+            "TailwindCSS"
+        ]
     },
     {
         "name": "Medibase",
-        "description": "A ",
+        "description": "Use Metabase Manager to synchronize your Metabase instance. You can copy question cards from the source instances to destination instances.",
         "link": "https://medibase.ohc.network/",
         "repo": "medibase",
-        "stack": []
+        "tags": [
+            "NextJS",
+            "TailwindCSS"
+        ]
     },
     {
         "name": "TeleICU Middleware",
         "description": "Middleware to help tunnel CCTV Streams, ONVIF APIs and Patient Vitals for TeleICU.",
         "link": "https://github.com/coronasafe/teleicu_middleware/",
         "repo": "teleicu_middleware",
-        "stack": []
+        "tags": [
+            "ExpressJS"
+        ]
     },
     {
         "name": "ZoomDrive",
         "description": "A GitHub Action to download Zoom recordings periodically and upload to Google Drive.",
         "link": "https://zoomdrive.ohc.network/",
         "repo": "zoomdrive",
-        "stack": []
+        "tags": [
+            "GitHub Actions"
+        ]
     },
     {
         "name": "Metabase Manager",
         "description": "Use Metabase Manager to synchronize your Metabase instance. You can copy question cards from the source instances to destination instances.",
         "link": "",
         "repo": "metabase_manager",
-        "stack": []
+        "tags": [
+            "Metabase"
+        ]
     },
     {
-        "name": "Dashboard",
+        "name": "Care Dashboard",
         "description": "A dashboard to visualize capacity, oxygen, asset and patient analytics.",
         "link": "https://care-dashboard.vercel.app/",
         "repo": "care_dashboard",
-        "stack": []
+        "tags": [
+            "React"
+        ]
     }
 ]
