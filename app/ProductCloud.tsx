@@ -1,4 +1,4 @@
-import { Product } from "./products";
+import { Product } from "../lib/products";
 
 export default function ProductCloud({ products }: { products: Product[] }) {
   return (

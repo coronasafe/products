@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import ProductCloud from "./ProductCloud";
 import ProductDetails from "./ProductDetails";
-import products from "./products";
+import products from "../lib/products";
 
 export default function Home() {
   return (

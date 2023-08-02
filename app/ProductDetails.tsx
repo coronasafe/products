@@ -1,4 +1,4 @@
-import { Product } from "./products";
+import { Product } from "../lib/products";
 
 export default function ProductDetails({ products }: { products: Product[] }) {
   return (
