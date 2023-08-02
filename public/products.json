@@ -37,7 +37,7 @@
     },
     {
         "name": "Medibase",
-        "description": "Use Metabase Manager to synchronize your Metabase instance. You can copy question cards from the source instances to destination instances.",
+        "description": "A medicines collection database for India.",
         "link": "https://medibase.ohc.network/",
         "repo": "medibase",
         "tags": [
