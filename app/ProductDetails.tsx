@@ -47,7 +47,7 @@ const ProductDetail = ({ product }: { product: Product }) => {
             href={product.github}
             target="_blank"
             rel="noreferrer"
-            className="group flex items-center gap-2 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out"
+            className="group flex items-center gap-2 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out whitespace-nowrap"
           >
             <SolidIcon
               icon="code-bracket"
@@ -60,7 +60,7 @@ const ProductDetail = ({ product }: { product: Product }) => {
               href={product.api_docs}
               target="_blank"
               rel="noreferrer"
-              className="group flex items-center gap-2 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out"
+              className="group flex items-center gap-2 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out whitespace-nowrap"
             >
               <SolidIcon
                 icon="book-open"
@@ -73,7 +73,7 @@ const ProductDetail = ({ product }: { product: Product }) => {
             href={product.link}
             target="_blank"
             rel="noreferrer"
-            className="group flex items-center gap-2 hover:gap-4 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out"
+            className="group flex items-center gap-2 hover:gap-4 text-sm font-semibold leading-6 text-fuchsia-900 hover:text-fuchsia-600 transition-all duration-200 ease-in-out whitespace-nowrap"
           >
             <SolidIcon
               icon="rocket-launch"
